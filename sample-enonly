@@ -5,28 +5,28 @@
       "question": "適温感",
       "question_id": "q_thermal",
       "response_options": [{
-          "text": "Cooler",
+          "text": "より涼しい方が良い",
           "icon": "snowflake",
-          "icon_background_color": "#FFFFFF",
+          "icon_background_color": "#A7D3CF",
           "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_location"
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_clothing"
         },
         {
-          "text": "No Change",
+          "text": "このままで良い",
           "icon": "emoticon_happy",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_location"
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_clothing"
         },
         {
-          "text": "Warmer",
+          "text": "より暖かい方が良い",
           "icon": "flame.fill",
-          "icon_background_color": "#F1A62E",
+          "icon_background_color": "#D4D0A7",
           "use_sf_symbols": true,
-          "sf_symbols_color": "#FF0000",
-          "next_question_id": "q_location"
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_clothing"
         }
       ]
     },
