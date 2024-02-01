@@ -1,6 +1,6 @@
 {
-  "survey_name": "Example Survey",
-  "survey_id": "example_survey",
+  "survey_name": "Example2",
+  "survey_id": "example2",
   "survey": [{
       "question": “prefer”,
       "question_id": "q_thermal",
