@@ -1,0 +1,59 @@
+{
+  "survey_name": "Example Survey",
+  "survey_id": "example_survey",
+  "survey": [{
+      "question": “prefer”,
+      "question_id": "q_thermal",
+      "response_options": [{
+          "text": “cooler”,
+          "icon": "snowflake",
+          "icon_background_color": “#FFFFFF”,
+          "use_sf_symbols": false,
+          "sf_symbols_color": “#A7D3CF”,
+          "next_question_id": "q_thermal2”
+        },
+　　　"text": “no change”,
+          "icon": “emoticon_happy”,
+          "icon_background_color": “#FFFFFF”,
+          "use_sf_symbols": false,
+          "sf_symbols_color": “#000000”,
+          "next_question_id": "q_thermal2”
+        },
+	  "text": “warmer”,
+          "icon": “flame.fill”,
+          "icon_background_color": “#FFFFFF”,
+          "use_sf_symbols": false,
+          "sf_symbols_color": “#D4A7AB”,
+          "next_question_id": "q_thermal2”
+        }
+      ]
+    },
+    {
+      "question": “prefer”,
+      "question_id": "q_thermal2”,
+      "response_options": [{
+          "text": “cooler”,
+          "icon": "snowflake",
+          "icon_background_color": “#FFFFFF”,
+          "use_sf_symbols": false,
+          "sf_symbols_color": “#A7D3CF”,
+          "next_question_id": ""
+        },
+　　　"text": “no change”,
+          "icon": “emoticon_happy”,
+          "icon_background_color": “#FFFFFF”,
+          "use_sf_symbols": false,
+          "sf_symbols_color": “#000000”,
+          "next_question_id": ""
+        },
+	  "text": “warmer”,
+          "icon": “flame.fill”,
+          "icon_background_color": “#FFFFFF”,
+          "use_sf_symbols": false,
+          "sf_symbols_color": “#D4A7AB”,
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
