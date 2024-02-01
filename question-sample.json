@@ -25,7 +25,7 @@
           "use_sf_symbols": false,
           "sf_symbols_color": “#D4A7AB”,
           "next_question_id": "q_thermal2”
-        },
+        }
       ]
     },
     {
@@ -52,7 +52,7 @@
           "use_sf_symbols": false,
           "sf_symbols_color": “#D4A7AB”,
           "next_question_id": ""
-        },
+        }
       ]
     }
   ]
