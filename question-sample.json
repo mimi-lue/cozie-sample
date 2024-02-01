@@ -1,6 +1,6 @@
 {
-  "survey_name": "Example Survey",
-  "survey_id": "example_survey",
+  "survey_name": "Example3",
+  "survey_id": "example3",
   "survey": [{
       "question": “適温感”,
       "question_id": "q_thermal",
