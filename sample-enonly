@@ -2,55 +2,67 @@
   "survey_name": "Example2",
   "survey_id": "example2",
   "survey": [{
-      "question": “prefer”,
+      "question": "適温感",
       "question_id": "q_thermal",
       "response_options": [{
-          "text": “cooler”,
+          "text": "Cooler",
           "icon": "snowflake",
-          "icon_background_color": “#FFFFFF”,
+          "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
-          "sf_symbols_color": “#A7D3CF”,
-          "next_question_id": "q_thermal2”
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
         },
-　　　"text": “no change”,
-          "icon": “emoticon_happy”,
-          "icon_background_color": “#FFFFFF”,
+        {
+          "text": "No Change",
+          "icon": "emoticon_happy",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
-          "sf_symbols_color": “#000000”,
-          "next_question_id": "q_thermal2”
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
         },
-	  "text": “warmer”,
-          "icon": “flame.fill”,
-          "icon_background_color": “#FFFFFF”,
-          "use_sf_symbols": false,
-          "sf_symbols_color": “#D4A7AB”,
-          "next_question_id": "q_thermal2”
+        {
+          "text": "Warmer",
+          "icon": "flame.fill",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#FF0000",
+          "next_question_id": "q_location"
         }
       ]
     },
     {
-      "question": “prefer”,
-      "question_id": "q_thermal2”,
+      "question": "What clothes are you wearing?",
+      "question_id": "q_clothing",
       "response_options": [{
-          "text": “cooler”,
-          "icon": "snowflake",
-          "icon_background_color": “#FFFFFF”,
+          "text": "Very light",
+          "icon": "clothes_shirt_sleeveless",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
-          "sf_symbols_color": “#A7D3CF”,
+          "sf_symbols_color": "#000000",
           "next_question_id": ""
         },
-　　　"text": “no change”,
-          "icon": “emoticon_happy”,
-          "icon_background_color": “#FFFFFF”,
+        {
+          "text": "Light",
+          "icon": "clothes_shirt_short",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
-          "sf_symbols_color": “#000000”,
+          "sf_symbols_color": "#000000",
           "next_question_id": ""
         },
-	  "text": “warmer”,
-          "icon": “flame.fill”,
-          "icon_background_color": “#FFFFFF”,
+        {
+          "text": "Medium",
+          "icon": "clothes_shirt_pants",
+          "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
-          "sf_symbols_color": “#D4A7AB”,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Heavy",
+          "icon": "clothes_pullover",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
           "next_question_id": ""
         }
       ]
