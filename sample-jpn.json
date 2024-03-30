@@ -1,0 +1,119 @@
+{
+  "survey_name": "Example2",
+  "survey_id": "example2",
+  "survey": [{
+      "question": "適温感",
+      "question_id": "q_thermal",
+      "response_options": [{
+          "text": "より涼しい方が良い",
+          "icon": "snowflake",
+          "icon_background_color": "#A7D3CF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_clothing"
+        },
+        {
+          "text": "このままで良い",
+          "icon": "emoticon_happy",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_clothing"
+        },
+        {
+          "text": "より暖かい方が良い",
+          "icon": "flame.fill",
+          "icon_background_color": "#D4D0A7",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#FFFFFF",
+          "next_question_id": "q_sselfp"
+        }
+      ]
+    },
+    {
+      "question": "現在の主観作業能力",
+      "question_id": "q_selfp",
+      "response_options": [{
+          "text": "91-100",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "81-90",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "71-80",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "61-70",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "51-60",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "41-50",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "31-40",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "21-30",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "11-20",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "1-10",
+          "icon": "void",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
