@@ -10,7 +10,7 @@
           "icon_background_color": "#A7D3CF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#FFFFFF",
-          "next_question_id": "q_clothing"
+          "next_question_id": "q_selfp"
         },
         {
           "text": "このままで良い",
@@ -18,7 +18,7 @@
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
           "sf_symbols_color": "#FFFFFF",
-          "next_question_id": "q_clothing"
+          "next_question_id": "q_selfp"
         },
         {
           "text": "より暖かい方が良い",
@@ -26,7 +26,7 @@
           "icon_background_color": "#D4D0A7",
           "use_sf_symbols": true,
           "sf_symbols_color": "#FFFFFF",
-          "next_question_id": "q_sselfp"
+          "next_question_id": "q_selfp"
         }
       ]
     },
